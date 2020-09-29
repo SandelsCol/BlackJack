@@ -6,12 +6,12 @@ namespace BlackJack
 {
     public class Card
     {
-        private char suit;
+        private string suit;
         private string symbol;
         private int score;
         private string color;
 
-        public Card(char suit, string symbol)
+        public Card(string suit, string symbol)
         {
             this.suit = suit;
             this.symbol = symbol;
@@ -36,11 +36,18 @@ namespace BlackJack
             {
                 if (symbol == "A")
                 {
-                    value = 11;
+                    if (score < 10)
+                    {
+                        value = 1;
+                    }
+                    else
+                    {
+                        value = 11;
+                    }
                 }
                 else
                 {
-                    value = 1;
+                    value = 10;
                 }
             }
 
@@ -48,7 +55,7 @@ namespace BlackJack
             
         }
  
-        public char Suit
+        public string Suit
         {
             get { return suit; }
             set { suit = value; } 

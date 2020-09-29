@@ -27,7 +27,7 @@ namespace BlackJack
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Card c = new Card();
+
         }
     }
 }
