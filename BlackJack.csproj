@@ -8,10 +8,12 @@
 
   <ItemGroup>
     <None Remove="poker-3024531_1280.jpg" />
+    <None Remove="poker-hands-bodog.jpg" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="poker-3024531_1280.jpg" />
+    <Resource Include="poker-hands-bodog.jpg" />
   </ItemGroup>
 
 </Project>

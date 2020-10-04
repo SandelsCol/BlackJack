@@ -15,6 +15,7 @@ namespace BlackJack
     /// <summary>
     /// Lógica de interacción para Game.xaml
     /// </summary>
+
     public partial class Game : Window
     {
         Player player = new Player();
@@ -39,7 +40,6 @@ namespace BlackJack
                 }
                 else
                 {
-
                     value += c.Score;
                 }
             }
@@ -51,14 +51,13 @@ namespace BlackJack
             player.Addcard(dealer.Deal());
             txtcartas.Text = "";
             foreach (Card c in player.Hand)
-            { 
+            {
                 txtcartas.Text += c.Suit + c.Symbol + "    ";
             }
-            if (player.Hand.Count > 21)
+            if (player.Hand.Count > 3)
             {
                 MessageBox.Show("Perdiste");
             }
-
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -114,8 +113,11 @@ namespace BlackJack
                 txtdealer.Text += c.Suit + c.Symbol + "    ";
             }
         }
+
     }
 }
+
+
 //if (player.Hand == null || player.Hand.Count >= 0)
 //{
 //dealer.Generate();

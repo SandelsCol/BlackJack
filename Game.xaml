@@ -11,7 +11,7 @@
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                 <GradientStop Color="#FFE4C6C6" Offset="1"/>
                 <GradientStop Color="#FFF09797" Offset="1"/>
-                <GradientStop Color="White" Offset="1"/>
+                <GradientStop Color="#FFC38585" Offset="1"/>
             </LinearGradientBrush>
         </Grid.Background>
         <Button Name="btnCartas" Content="¡Give me more!" HorizontalAlignment="Left" Margin="94,257,0,0" VerticalAlignment="Top" Height="39" Width="110" RenderTransformOrigin="0.5,0.5" Click="btnCartas_Click">
@@ -29,22 +29,22 @@
                 <TextDecoration/>
             </TextBlock.TextDecorations>
         </TextBlock>
-        <TextBlock Name="txtDealer" HorizontalAlignment="Left" Margin="631,37,0,0" Text="Dealer" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" FontFamily="Arial Black" FontStyle="Italic">
+        <TextBlock Name="txtDealer" HorizontalAlignment="Left" Margin="329,42,0,0" Text="Dealer" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" FontFamily="Arial Black" FontStyle="Italic">
             <TextBlock.TextDecorations>
                 <TextDecoration/>
             </TextBlock.TextDecorations>
         </TextBlock>
-        <TextBlock Name="txtcartas" HorizontalAlignment="Left" Margin="83,82,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="160" Width="139"/>
-        <TextBlock Name="txtdealer" HorizontalAlignment="Left" Height="167" Margin="597,82,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="139"/>
-        <Label  Content="" HorizontalAlignment="Left" Height="233" Margin="277,60,0,0" VerticalAlignment="Top" Width="256">
+        <TextBlock Name="txtcartas" HorizontalAlignment="Left" Margin="80,75,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="167" Width="140"/>
+        <TextBlock Name="txtdealer" HorizontalAlignment="Left" Height="167" Margin="295,75,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="139"/>
+        <Label  Content="" HorizontalAlignment="Left" Height="305" Margin="513,106,0,0" VerticalAlignment="Top" Width="252">
             <Label.Background>
                 <ImageBrush ImageSource="/poker-3024531_1280.jpg"/>
             </Label.Background>
         </Label>
-        <Button Name="btnnewgame" Content="New Game" HorizontalAlignment="Left" Margin="356,382,0,0" VerticalAlignment="Top" Height="42" Width="98" Click="Button_Click"/>
-        <Button Name="btnrevol" Content="¡Stir everything!" HorizontalAlignment="Left" Margin="26,313,0,0" VerticalAlignment="Top" Height="42" Width="110" Click="Button_Click_1" />
-        <Button Name="btnstop" Content="Stop" HorizontalAlignment="Left" Margin="153,313,0,0" VerticalAlignment="Top" Height="42" Width="111" Click="Button_Click_2"/>
-        <Button Name="btndealercartas" Content="¡Give me more!" HorizontalAlignment="Left" Margin="614,254,0,0" VerticalAlignment="Top" Height="40" Width="105" Click="btndealercartas_Click"/>
+        <Button Name="btnnewgame" Content="New Game" HorizontalAlignment="Left" Margin="271,326,0,0" VerticalAlignment="Top" Height="42" Width="174" Click="Button_Click"/>
+        <Button Name="btnrevol" Content="¡Stir everything!" HorizontalAlignment="Left" Margin="95,369,0,0" VerticalAlignment="Top" Height="42" Width="110" Click="Button_Click_1" />
+        <Button Name="btnstop" Content="Stop" HorizontalAlignment="Left" Margin="95,310,0,0" VerticalAlignment="Top" Height="42" Width="108" Click="Button_Click_2"/>
+        <Button Name="btndealercartas" Content="¡Give me more!" HorizontalAlignment="Left" Margin="299,257,0,0" VerticalAlignment="Top" Height="40" Width="105" Click="btndealercartas_Click"/>
 
     </Grid>
 </Window>

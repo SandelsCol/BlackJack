@@ -1,0 +1,21 @@
+﻿<Page x:Class="BlackJack.Page1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:BlackJack"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Page1">
+
+    <Grid Background="White">
+        <Button Content="Play" HorizontalAlignment="Center" Height="37" Margin="0,378,0,0" VerticalAlignment="Top" Width="108" Click="Button_Click_1"/>
+        <Label Content="" HorizontalAlignment="Center" Height="246" VerticalAlignment="Center" Width="686">
+            <Label.Background>
+                <ImageBrush ImageSource="/poker-hands-bodog.jpg"/>
+            </Label.Background>
+        </Label>
+        <Label Content="BlackJack" HorizontalAlignment="Center" Height="60" Margin="0,21,0,0" VerticalAlignment="Top" Width="162" Background="White" FontSize="36"/>
+
+    </Grid>
+</Page>
